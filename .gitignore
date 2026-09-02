@@ -1,0 +1,21 @@
+.DS_Store
+.env
+.env.*
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+.cache/
+
+# Published separately on Hugging Face.
+probe_weights_comp_only2/
+published_artifacts/
+pgd_banks/
+read_side/
+write_side/
+results/
+results_*/
+plots/
+
+# Local gated base-model snapshots.
+train_time_experiments/Llama-3.2-*-Instruct/
